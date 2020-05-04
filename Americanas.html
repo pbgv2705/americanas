@@ -8,90 +8,228 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <style>
-        div {
-            background-color: rgb(250, 14, 14);
-    
-            }
-    </style>
-
 </head>
 
 <body>
-    <header>
-        <p>
-            <h2>nossas entregas estão funcionando normalmente     compre com segurança</h1>
-        </p>
+    <header class="container-fluid" style="background-color: #e60014">
+
+        <img src="img/topoamericana.png" alt="nossas entregas estão funcionando normalmente">
         <!-- Logo -->
         <div class="p-3 mb-2 "> </div>
-            
 
         <!-- ---------- !Barra de Busca -->
-        <div class="input-group mb-3" 
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">tem tudooo, pode procurar</span>
-            
-            <input type="text" class="form-control" aria-describedby="basic-addon1">
-            </div>  
-        </div>
-         
+
+        <section class="container-fluid">
+            <div class="row">
+                <!--<div class="style="background-color: #e60014"></div> -->
+                <div class="col">
+                    <picture>
+                        <img style="width:70px; height:70px;" src="img/logoamericanas.png">
+                    </picture>
+                </div>
+                <div class="input-group mb-3 col-6">
+                    <input type="text" class="form-control" placeholder="Recipient's username"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"></button>
+                    </div>
+                </div>
+
+                <div class="col">Menu Usuario</div>
+                <!-- <i  class="far fa-user"></i> -->
+                <div class="col"> Botones Derecha</div>
+            </div>
+
+        </section>
+
+
+
 
         <!-- ---------- !Botões -->
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-danger">covid-19 nossos cuidados</button>
-            <button type="button" class="btn btn-danger">seja a prime</button>
-            <button type="button" class="btn btn-danger">a empresas</button>
-            <button type="button" class="btn btn-danger">baixe o app</button>
-            <button type="button" class="btn btn-danger">receba hije</button>
-            <button type="button" class="btn btn-danger">venda com a gente</button>   
-            <button type="button" class="btn btn-danger">produtos importados</button>
-            <button type="button" class="btn btn-danger">nossas marcas</button>
-            <button type="button" class="btn btn-danger">ofertas do dia</button>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">covid-19 nossos cuidados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">seja a prime</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">a empresas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">baixe o app</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">receba hoje</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">venda com a gente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">produtos importados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">nossas marcas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ofertas do dia</a>
+            </li>
+        </ul>
 
-          </div>
-        <!-- ---------- !Menues -->
+
+
+
+
+
+
 
         </div>
     </header>
 
     <main>
-        
+        <!-- ---------- !Menues -->
         <!-- ---------- !navtabs departamentos             -->
         <!-- ---------- !botões2 -->
 
-        <div class="dropdown">
-            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                compre por departamento
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-light">notebook</button>
-                <button type="button" class="btn btn-light">celulares</button>
-                <button type="button" class="btn btn-light">consoles e games</button>
-                <button type="button" class="btn btn-light">brinquedos</button>
-                <button type="button" class="btn btn-light">móveis e decoração</button>
-                <button type="button" class="btn btn-light">esporte e lazer</button>
-                
-                </div>
-                
+            <div class="collapse navbar-collapse; show" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav text-dark">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            compre por departamento
+                        </a>
+                        
+                            <section>
 
-            <div class="dropdown-menu" aria-labelledby="compre por departamento">
-              <a class="dropdown-item" href="#">brinquedos e bebés</a>
-              <a class="dropdown-item" href="#">celulares e telefonía fixa</a>
-              <a class="dropdown-item" href="#">informática e tablets</a>
-              <a class="dropdown-item" href="#">tv, áudio e home theater</a>
-              <a class="dropdown-item" href="#">moda, beleza e perfumaria</a>
-              <a class="dropdown-item" href="#">games, livros e filmes</a>
-              
-              
+                                <div class="dropdown-menu">
+                                    <span class="dropdown-item-text">Dropdown item text</span>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  </div>
 
+
+                                <a class="btn-group dropright">
+                                    <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        brinquedos e bebês
+                                    </button>
+                                    <div class="dropdown-menu d-print-none">
+                                      <!-- Dropdown menu links -->
+                                    </div>
+                                </a>
+                            </section>
+                            <a class="btn-group dropright">
+                                <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    celulares e telefonia fixa
+                                </button>
+                                <div class="dropdown-menu">
+                                  <!-- Dropdown menu links -->
+                                </div>
+                            </a>
+
+                            <a class="dropdown-item" href="#">informática e tablets</a>
+                            <a class="dropdown-item" href="#">tv, áudio e home theater</a>
+                            <a class="dropdown-item" href="#">moda, beleza e perfumaria</a>
+                            <a class="dropdown-item" href="#">games, livros e filmes</a>
+                            <a class="dropdown-item" href="#">móveis e decoração</a>
+                            <a class="dropdown-item" href="#">eletrodomésticos e split</a>
+                            <a class="dropdown-item" href="#">eletroportáteis</a>
+                            <a class="dropdown-item" href="#">para sua empresa</a>
+                            <a class="dropdown-item" href="#">cartão, parceiros e serviçõs</a>
+                            <a class="dropdown-item" href="#">produtos importados</a>
+                            <a class="dropdown-item" href="#">Centauro</a>
+                            <a class="dropdown-item" href="#">nosso outlet</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"; .font-weight-bold href="#">todos os departamentos</a>
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">notebook <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">eletrodomésticos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">celulares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">beleza e perfumaria</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">móveis e decoração</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">eletroportáteis</a>
+                    </li>
+                </ul>
 
             </div>
-          </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- ---------- !Breadcrumbs pag.inicial - beleza e perfumaria - dermocosméticos        -->
         <!-- ---------- !Carousel -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Carrousel1.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img\Carrousel2 - destaque_beleza.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img\Carrousel3 - Cuidados Rosto.png" alt="Terceiro Slide">
+                </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img\Carrousel4 - Protecao Solar.png" alt="Quarto Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+
         <!-- ---------- !imagem -->
         <!-- ---------- !Collapse  - acné com descripção -->
 
